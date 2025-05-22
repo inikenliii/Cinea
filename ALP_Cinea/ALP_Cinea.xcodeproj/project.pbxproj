@@ -29,9 +29,34 @@
 		3F86CAFC2DDECFD4009B215B /* ALP_CineaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALP_CineaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3FC5DD182DDEEF66004941D2 /* Exceptions for "ALP_Cinea" folder in "ALP_CineaTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				View/FilmCardView.swift,
+				View/FilmDetailView.swift,
+				View/MainView.swift,
+			);
+			target = 3F86CAF12DDECFD4009B215B /* ALP_CineaTests */;
+		};
+		3FC5DD192DDEEF66004941D2 /* Exceptions for "ALP_Cinea" folder in "ALP_CineaUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				View/FilmCardView.swift,
+				View/FilmDetailView.swift,
+				View/MainView.swift,
+			);
+			target = 3F86CAFB2DDECFD4009B215B /* ALP_CineaUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3F55C09F2DDEE85C00C51462 /* ALP_Cinea */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3FC5DD182DDEEF66004941D2 /* Exceptions for "ALP_Cinea" folder in "ALP_CineaTests" target */,
+				3FC5DD192DDEEF66004941D2 /* Exceptions for "ALP_Cinea" folder in "ALP_CineaUITests" target */,
+			);
 			path = ALP_Cinea;
 			sourceTree = "<group>";
 		};
