@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3F86CAE42DDECFD2009B215B /* ALP_Cinea */ = {
+		3F55C09F2DDEE85C00C51462 /* ALP_Cinea */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ALP_Cinea;
 			sourceTree = "<group>";
@@ -75,7 +75,7 @@
 		3F86CAD92DDECFD2009B215B = {
 			isa = PBXGroup;
 			children = (
-				3F86CAE42DDECFD2009B215B /* ALP_Cinea */,
+				3F55C09F2DDEE85C00C51462 /* ALP_Cinea */,
 				3F86CAF52DDECFD4009B215B /* ALP_CineaTests */,
 				3F86CAFF2DDECFD4009B215B /* ALP_CineaUITests */,
 				3F86CAE32DDECFD2009B215B /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3F86CAE42DDECFD2009B215B /* ALP_Cinea */,
+				3F55C09F2DDEE85C00C51462 /* ALP_Cinea */,
 			);
 			name = ALP_Cinea;
 			packageProductDependencies = (
