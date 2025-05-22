@@ -29,9 +29,32 @@
 		3F86CAFC2DDECFD4009B215B /* ALP_CineaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALP_CineaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3F55C0AD2DDEE8A400C51462 /* Exceptions for "ALP_Cinea" folder in "ALP_CineaTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Model/Film.swift,
+				Model/Review.swift,
+			);
+			target = 3F86CAF12DDECFD4009B215B /* ALP_CineaTests */;
+		};
+		3F55C0AE2DDEE8A400C51462 /* Exceptions for "ALP_Cinea" folder in "ALP_CineaUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Model/Film.swift,
+				Model/Review.swift,
+			);
+			target = 3F86CAFB2DDECFD4009B215B /* ALP_CineaUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3F86CAE42DDECFD2009B215B /* ALP_Cinea */ = {
+		3F55C09F2DDEE85C00C51462 /* ALP_Cinea */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F55C0AD2DDEE8A400C51462 /* Exceptions for "ALP_Cinea" folder in "ALP_CineaTests" target */,
+				3F55C0AE2DDEE8A400C51462 /* Exceptions for "ALP_Cinea" folder in "ALP_CineaUITests" target */,
+			);
 			path = ALP_Cinea;
 			sourceTree = "<group>";
 		};
@@ -75,7 +98,7 @@
 		3F86CAD92DDECFD2009B215B = {
 			isa = PBXGroup;
 			children = (
-				3F86CAE42DDECFD2009B215B /* ALP_Cinea */,
+				3F55C09F2DDEE85C00C51462 /* ALP_Cinea */,
 				3F86CAF52DDECFD4009B215B /* ALP_CineaTests */,
 				3F86CAFF2DDECFD4009B215B /* ALP_CineaUITests */,
 				3F86CAE32DDECFD2009B215B /* Products */,
@@ -108,7 +131,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3F86CAE42DDECFD2009B215B /* ALP_Cinea */,
+				3F55C09F2DDEE85C00C51462 /* ALP_Cinea */,
 			);
 			name = ALP_Cinea;
 			packageProductDependencies = (
